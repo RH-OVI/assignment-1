@@ -1,0 +1,39 @@
+.header-container{
+  background-image:url(Assets/Hero-bg.png);
+  background-size: cover;
+  height:800px;
+}
+.main-header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0px 150px;
+}
+.logo{
+  color:#4E47FF;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size:34px;
+  margin-top:50px;
+}
+.signup{
+   margin-top:50px;
+
+}
+.primary-btn{
+  text-decoration: none;
+  background-color:#4E47FF;
+  color:white;
+  padding:15px 18px;
+  font-weight:bold;
+  border-radius:5px;
+}
+.text-container{
+  text-align:center;
+  margin:150px 268px;
+}
+.header-title{
+  color:#252432;
+  font-weight:bold;
+  font-size:60px;
+}
