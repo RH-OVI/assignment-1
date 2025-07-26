@@ -105,3 +105,38 @@
   font-family: 'Inter', sans-serif;
 
 }
+/* productive-section end */
+/* card-section start */
+.card-section{
+  margin:137px 150px;
+  width:auto;
+  height:350px;
+}
+.card-title{
+  text-align:center;
+  color:#252432;
+  font-weight:bold;
+  font-size:42px;
+}
+.card-container{
+  display:flex;
+  justify-content:space-around;
+}
+.card-primary{
+  background-color:#F2EDED;
+  border-radius:14px;
+  padding:20px;
+}
+.card-secondary{
+  display:flex;
+  gap:7px;
+}
+.card-secondary img{
+  width:50px;
+  height:50px;
+  border-radius:9999px;
+  margin-top:22px;
+}
+.card-tertiary p{
+  margin-top:0px;
+}
