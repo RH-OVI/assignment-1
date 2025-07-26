@@ -1,3 +1,8 @@
+body{
+background-color:wheat;
+margin:0;
+padding:0;
+}
 /* Header start */
 .header-container{
   background-image:url(Assets/Hero-bg.png);
@@ -140,3 +145,57 @@
 .card-tertiary p{
   margin-top:0px;
 }
+/* card section end */
+/* form section start */
+.form-section{
+  display:flex;
+  height:630px;
+  width:auto;
+  margin:90px 150px;
+  justify-content:space-around;
+}
+.section-title h2{
+  color:#000000;
+  font-weight:bold;
+  font-size:97px;
+  margin-top:120px;
+}
+.form-info{
+  display:flex;
+  flex-direction:column ;
+  width:470px;
+  height:490px;
+  gap:15px;
+ 
+}
+#email{
+  width:470px;
+  height:50px;
+   border-radius:10px;
+   padding:10px;
+   
+}
+#name{
+  width:470px;
+  height:50px;
+   border-radius:10px;
+   padding:10px;
+}
+#message{
+  width:470px;
+  height:197px;
+   border-radius:10px;
+   padding:10px;
+}
+.gt-touch{
+  font-weight:bold;
+  width:490px;
+  height:60px;
+  border-radius:10px;
+  background-color: #4E47FF;
+  color: #F2EDED;
+  padding:20px;
+
+}
+/* form end */
+/* footer start */
